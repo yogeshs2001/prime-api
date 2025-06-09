@@ -30,14 +30,14 @@ Use the following curl command to test if a number is prime:
 ```bash
 curl -X POST http://127.0.0.1:8000/is-prime/ \
      -H "Content-Type: application/json" \
-     -d '{"number": 19}'
+     -d '{"number": 17}'
 ```
 
 Example response:
 
 ```json
 {
-  "number": 19,
+  "number": 17,
   "is_prime": true
 }
 ```
